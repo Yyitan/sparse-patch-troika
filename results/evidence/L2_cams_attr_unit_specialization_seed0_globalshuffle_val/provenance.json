@@ -1,0 +1,17 @@
+{
+  "protocol": "fixed-cams-checkpoint/closed-validation/attribute-latent-specialization/v1",
+  "source_code": "./lyt/czsl/CAMS-main/CAMS",
+  "checkpoint": "./CAMS/output/utzappos_crdiff/val_best.pt",
+  "checkpoint_size": 1939825087,
+  "script_sha256": "bf8045973f9fdfb178d3f8eabd204b4a1e5ce2549bd6044f9ef392c3fe1b9bb4",
+  "config_sha256": "28662c1b1c737b6b3dd92706279b9f1dd7def594ddca1da6a132507141c4df28",
+  "gpu": "GPU-a0f4824e-b407-020f-b7e8-c53943425f46",
+  "candidates": [
+    "mean_feature",
+    "unit_mean",
+    "attribute_max",
+    "attribute_logmeanexp",
+    "shuffled_image_max"
+  ],
+  "test_policy": "validation only; no test evaluation"
+}

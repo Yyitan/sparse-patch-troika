@@ -1,0 +1,43 @@
+{
+  "status": "smoke-completed",
+  "batches": 1,
+  "finite": true,
+  "score_shapes": {
+    "uniform": [
+      2,
+      192
+    ],
+    "correct_object": [
+      2,
+      192
+    ],
+    "wrong_object": [
+      2,
+      192
+    ],
+    "shuffled_mask": [
+      2,
+      192
+    ]
+  },
+  "local_shapes": {
+    "uniform": [
+      2,
+      16
+    ],
+    "correct_object": [
+      2,
+      16
+    ],
+    "wrong_object": [
+      2,
+      16
+    ],
+    "shuffled_mask": [
+      2,
+      16
+    ]
+  },
+  "max_uniform_reproduction_error": 0.0,
+  "peak_gpu_bytes": 3168423424
+}

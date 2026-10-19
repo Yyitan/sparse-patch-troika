@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "协议": "固定MSAQ最佳权重/真实白背景foreground注意力审计/validation-only/未读取test",
+  "seed": 0,
+  "baseline_checkpoint": "./czsl/sparse_patch_troika/experiments/P0_ut_cls_seed0/val_best.pt",
+  "msaq_checkpoint": "./czsl/sparse_patch_troika/experiments/M1_msaq_seed0/msaq_best.pt",
+  "样本数": 3214,
+  "真实属性注意力前景质量": {
+    "target_attention_foreground_mass": 0.7607386708259583,
+    "all_attribute_attention_foreground_mass": 0.7839586138725281,
+    "uniform_foreground_mass": 0.44452792406082153,
+    "target_attention_enrichment_vs_uniform": 1.7873636484146118,
+    "target_top_patch_foreground_coverage": 0.951081395149231,
+    "target_top_patch_core_hit_rate": 0.9863098859786987
+  }
+}

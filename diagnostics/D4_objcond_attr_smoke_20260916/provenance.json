@@ -1,0 +1,20 @@
+{
+  "protocol": "fixed-checkpoint/validation-only/object-conditioned-attribute-residual",
+  "checkpoint": "./czsl/sparse_patch_troika/experiments/P0_ut_cls_seed0/val_best.pt",
+  "checkpoint_sha256": "c6c3cfd397102dece3792255e27b01da9abe4aca64adec4fa78407ca71e927d8",
+  "code_sha256": "ed9b7e5e1f1169e4ecbd46a0c68401a3a02aae243046453c40cd46bdc3ec7e03",
+  "gpu": "GPU-a0f4824e-b407-020f-b7e8-c53943425f46",
+  "object_layer": 12,
+  "attribute_layer": 6,
+  "alphas": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "mask_temperature": 0.07,
+  "modes": [
+    "soft",
+    "hard3"
+  ],
+  "test_policy": "do not evaluate test unless both seed validations select non-CLS"
+}

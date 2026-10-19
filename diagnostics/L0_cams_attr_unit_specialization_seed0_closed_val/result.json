@@ -1,0 +1,136 @@
+{
+  "grid": {
+    "mean_feature": {
+      "best_seen": 0.6761687397956848,
+      "best_unseen": 0.7077449560165405,
+      "best_hm": 0.6164623340926491,
+      "AUC": 0.45171352291038147,
+      "attr_acc": 0.35158681869506836,
+      "obj_acc": 0.8394523859024048
+    },
+    "unit_mean": {
+      "best_seen": 0.6761687397956848,
+      "best_unseen": 0.7077449560165405,
+      "best_hm": 0.6164623340926491,
+      "AUC": 0.45171352291038147,
+      "attr_acc": 0.35158681869506836,
+      "obj_acc": 0.8394523859024048
+    },
+    "attribute_max": {
+      "best_seen": 0.6773090362548828,
+      "best_unseen": 0.7081728577613831,
+      "best_hm": 0.6170595182594476,
+      "AUC": 0.45293745205108715,
+      "attr_acc": 0.3518979549407959,
+      "obj_acc": 0.8391412496566772
+    },
+    "attribute_logmeanexp": {
+      "best_seen": 0.6773090362548828,
+      "best_unseen": 0.7077449560165405,
+      "best_hm": 0.6170595182594476,
+      "AUC": 0.45251711387272,
+      "attr_acc": 0.35158681869506836,
+      "obj_acc": 0.8394523859024048
+    },
+    "shuffled_image_max": {
+      "best_seen": 0.7126567959785461,
+      "best_unseen": 0.7107402682304382,
+      "best_hm": 0.635467443617811,
+      "AUC": 0.4766831654948198,
+      "attr_acc": 0.3655880391597748,
+      "obj_acc": 0.8428749442100525
+    }
+  },
+  "local_attribute": {
+    "mean_feature": {
+      "accuracy": 0.3061605393886566,
+      "target_logit_mean": 13.677499771118164
+    },
+    "unit_mean": {
+      "accuracy": 0.3061605393886566,
+      "target_logit_mean": 13.50943374633789
+    },
+    "attribute_max": {
+      "accuracy": 0.3077162504196167,
+      "target_logit_mean": 15.150471687316895
+    },
+    "attribute_logmeanexp": {
+      "accuracy": 0.30740511417388916,
+      "target_logit_mean": 13.73825454711914
+    },
+    "shuffled_image_max": {
+      "accuracy": 0.2890479266643524,
+      "target_logit_mean": 14.761170387268066
+    }
+  },
+  "oracle": {
+    "any_unit_correct": 0.3304293751716614,
+    "target_selected_accuracy": 0.30896079540252686,
+    "unique_predictions_mean": 1.148102045059204,
+    "best_single_unit_accuracy": 0.3123833239078522,
+    "best_single_unit_index": 13,
+    "per_unit_accuracy": [
+      0.3067828118801117,
+      0.3011823296546936,
+      0.30553826689720154,
+      0.2986932098865509,
+      0.3067828118801117,
+      0.30087119340896606,
+      0.30087119340896606,
+      0.30336031317710876,
+      0.30896079540252686,
+      0.30491599440574646,
+      0.30336031317710876,
+      0.30149346590042114,
+      0.30802738666534424,
+      0.3123833239078522,
+      0.3046048581600189,
+      0.3018046021461487,
+      0.30149346590042114,
+      0.30149346590042114,
+      0.30242687463760376,
+      0.3061605393886566,
+      0.30553826689720154,
+      0.29744866490364075,
+      0.3098942041397095,
+      0.3067828118801117,
+      0.2980709373950958,
+      0.30491599440574646,
+      0.30647167563438416,
+      0.30740511417388916,
+      0.30242687463760376,
+      0.305227130651474,
+      0.30647167563438416,
+      0.30304914712905884
+    ],
+    "off_diagonal_feature_cosine": 0.974275529384613
+  },
+  "gate": {
+    "direct_candidate_passed": false,
+    "direct_candidates": {
+      "attribute_max": {
+        "beats_mean_pair_auc": true,
+        "beats_mean_local_attribute": true,
+        "beats_shuffled_pair_auc": false,
+        "beats_shuffled_local_attribute": true,
+        "passed": false
+      },
+      "attribute_logmeanexp": {
+        "beats_mean_pair_auc": true,
+        "beats_mean_local_attribute": true,
+        "beats_shuffled_pair_auc": false,
+        "beats_shuffled_local_attribute": true,
+        "passed": false
+      }
+    },
+    "oracle_any_unit_headroom": 0.02426883578300476,
+    "oracle_target_selected_headroom": 0.0028002560138702393,
+    "oracle_specialization_passed": false,
+    "passed": false
+  },
+  "peak_gpu_bytes": 3356621312,
+  "status": "completed",
+  "split": "validation",
+  "validation_world": "closed",
+  "test_evaluated": false
+}

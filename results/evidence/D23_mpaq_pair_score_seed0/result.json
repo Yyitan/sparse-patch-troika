@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "协议": "固定MPAQ权重/validation-only/局部组合分数诊断/未读取test",
+  "seed": 0,
+  "baseline_checkpoint": "./czsl/sparse_patch_troika/experiments/P0_ut_cls_seed0/val_best.pt",
+  "mpaq_checkpoint": "./czsl/sparse_patch_troika/experiments/N0c_mpaq_seed0_one_epoch/msaq_best.pt",
+  "local_pair": {
+    "czsl": {
+      "best_seen": 0.4914481043815613,
+      "best_unseen": 0.5827984809875488,
+      "best_hm": 0.37321750992424635,
+      "AUC": 0.2177457118951239,
+      "attr_acc": 0.3198506534099579,
+      "obj_acc": 0.680460512638092
+    },
+    "all_pair_top1": 0.15930305421352386,
+    "same_attribute_object_top1": 0.6841941505911636,
+    "same_attribute_object_margin": 0.3991599895892283,
+    "same_attribute_candidate_count": 10.172059738643435
+  }
+}

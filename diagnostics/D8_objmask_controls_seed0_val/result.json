@@ -1,0 +1,101 @@
+{
+  "grid": {
+    "cls": {
+      "best_seen": 0.7092360258102417,
+      "best_unseen": 0.7702182531356812,
+      "best_hm": 0.6502500831611027,
+      "AUC": 0.505867398249443,
+      "attr_acc": 0.38581207394599915,
+      "obj_acc": 0.8581207394599915
+    },
+    "uniform": {
+      "best_seen": 0.704675018787384,
+      "best_unseen": 0.7757809162139893,
+      "best_hm": 0.6483161350596296,
+      "AUC": 0.5081391174557497,
+      "attr_acc": 0.3739888072013855,
+      "obj_acc": 0.8550093173980713
+    },
+    "center": {
+      "best_seen": 0.704675018787384,
+      "best_unseen": 0.7762088179588318,
+      "best_hm": 0.6483161350596296,
+      "AUC": 0.5083713624042712,
+      "attr_acc": 0.3733665347099304,
+      "obj_acc": 0.8550093173980713
+    },
+    "correct_object": {
+      "best_seen": 0.704675018787384,
+      "best_unseen": 0.7757809162139893,
+      "best_hm": 0.6483161350596296,
+      "AUC": 0.508206204851051,
+      "attr_acc": 0.3733665347099304,
+      "obj_acc": 0.8550093173980713
+    },
+    "wrong_object": {
+      "best_seen": 0.704675018787384,
+      "best_unseen": 0.7753530144691467,
+      "best_hm": 0.6483161350596296,
+      "AUC": 0.5080454385222823,
+      "attr_acc": 0.3733665347099304,
+      "obj_acc": 0.8550093173980713
+    },
+    "shuffled_mask": {
+      "best_seen": 0.704675018787384,
+      "best_unseen": 0.7753530144691467,
+      "best_hm": 0.6483161350596296,
+      "AUC": 0.5080893478125545,
+      "attr_acc": 0.3739888072013855,
+      "obj_acc": 0.8550093173980713
+    }
+  },
+  "local_attribute": {
+    "uniform": {
+      "accuracy": 0.07498444616794586,
+      "target_logit_mean": 4.298101425170898,
+      "normalized_entropy": 1.0000001192092896
+    },
+    "center": {
+      "accuracy": 0.07436216622591019,
+      "target_logit_mean": 4.173027992248535,
+      "normalized_entropy": 0.9545192718505859
+    },
+    "correct_object": {
+      "accuracy": 0.10205351561307907,
+      "target_logit_mean": 4.47235631942749,
+      "normalized_entropy": 0.9887577295303345
+    },
+    "wrong_object": {
+      "accuracy": 0.10174237936735153,
+      "target_logit_mean": 4.4516143798828125,
+      "normalized_entropy": 0.9879329800605774
+    },
+    "shuffled_mask": {
+      "accuracy": 0.09178593754768372,
+      "target_logit_mean": 4.352173328399658,
+      "normalized_entropy": 0.9887136220932007
+    }
+  },
+  "gate": {
+    "correct_beats_all_pair_auc": false,
+    "correct_beats_all_local_attribute": true,
+    "pair_auc_margins": {
+      "uniform": 6.70873953012574e-05,
+      "center": -0.00016515755322021874,
+      "wrong_object": 0.0001607663287686023,
+      "shuffled_mask": 0.0001168570384963985
+    },
+    "local_attribute_margins": {
+      "uniform": 0.02706906944513321,
+      "center": 0.027691349387168884,
+      "wrong_object": 0.00031113624572753906,
+      "shuffled_mask": 0.010267578065395355
+    },
+    "passed": false
+  },
+  "peak_gpu_bytes": 3115561472,
+  "status": "completed",
+  "split": "validation",
+  "cls_val_auc": 0.505867398249443,
+  "test_evaluated": false
+}

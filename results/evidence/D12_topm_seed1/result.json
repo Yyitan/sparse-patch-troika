@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "协议": "固定checkpoint/closed-world-validation/对象Top-M召回",
+  "checkpoint": "./czsl/sparse_patch_troika/experiments/P9_ut_cls_seed1/val_best.pt",
+  "checkpoint_sha256": "da73b6ffa17b938a1e8004f8031bdc2fa1a13b851ebbc923c3f534e7f4d565b3",
+  "seed": 1,
+  "数据集": "ut-zappos",
+  "对象数量": 12,
+  "验证样本数": 3214,
+  "平均倒数排名": 0.8938218183820116,
+  "topm_recall": {
+    "1": 0.8201617921593031,
+    "2": 0.9321717485998755,
+    "3": 0.9657747355320473,
+    "5": 0.9847542003733665
+  },
+  "是否满足top3_98门槛": false
+}

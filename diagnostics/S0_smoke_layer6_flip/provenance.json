@@ -1,0 +1,9 @@
+{
+  "protocol": "fixed-P0/ground-truth-composition/horizontal-flip-stability",
+  "layer": 6,
+  "temperature": 0.07,
+  "checkpoint": "./czsl/sparse_patch_troika/experiments/P0_ut_cls_seed0/val_best.pt",
+  "checkpoint_sha256": "c6c3cfd397102dece3792255e27b01da9abe4aca64adec4fa78407ca71e927d8",
+  "code_sha256": "622c5b7918acb91e8212f563cd114c4af0f0ede8b80af334abbe4376726fdcec",
+  "gpu": "0"
+}

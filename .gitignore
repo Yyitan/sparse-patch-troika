@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Logs and outputs
+*.log
+logs/
+output/
+save_models/
+wandb/
+
+# Data and checkpoints (not distributed with this repo)
+external/
+*.pt
+*.pth
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

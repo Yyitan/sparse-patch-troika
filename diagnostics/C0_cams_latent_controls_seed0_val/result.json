@@ -1,0 +1,79 @@
+{
+  "grid": {
+    "uniform": {
+      "best_seen": 0.6761687397956848,
+      "best_unseen": 0.5986307263374329,
+      "best_hm": 0.47898073561844745,
+      "AUC": 0.34455457895119024,
+      "attr_acc": 0.35158681869506836,
+      "obj_acc": 0.8388301134109497
+    },
+    "correct_object": {
+      "best_seen": 0.6761687397956848,
+      "best_unseen": 0.5986307263374329,
+      "best_hm": 0.47898073561844745,
+      "AUC": 0.34455457895119024,
+      "attr_acc": 0.35158681869506836,
+      "obj_acc": 0.8388301134109497
+    },
+    "wrong_object": {
+      "best_seen": 0.6761687397956848,
+      "best_unseen": 0.5986307263374329,
+      "best_hm": 0.47898073561844745,
+      "AUC": 0.3445831222598189,
+      "attr_acc": 0.3512756824493408,
+      "obj_acc": 0.8388301134109497
+    },
+    "shuffled_mask": {
+      "best_seen": 0.6761687397956848,
+      "best_unseen": 0.5986307263374329,
+      "best_hm": 0.47898073561844745,
+      "AUC": 0.344588245371647,
+      "attr_acc": 0.3512756824493408,
+      "obj_acc": 0.8388301134109497
+    }
+  },
+  "local_attribute": {
+    "uniform": {
+      "accuracy": 0.3061605393886566,
+      "target_logit_mean": 13.677502632141113,
+      "normalized_entropy": 1.0000001192092896
+    },
+    "correct_object": {
+      "accuracy": 0.3061605393886566,
+      "target_logit_mean": 13.666060447692871,
+      "normalized_entropy": 0.9991217255592346
+    },
+    "wrong_object": {
+      "accuracy": 0.3061605393886566,
+      "target_logit_mean": 13.666471481323242,
+      "normalized_entropy": 0.9991573095321655
+    },
+    "shuffled_mask": {
+      "accuracy": 0.3061605393886566,
+      "target_logit_mean": 13.666644096374512,
+      "normalized_entropy": 0.9991277456283569
+    }
+  },
+  "gate": {
+    "uniform_reproduced": true,
+    "correct_beats_all_pair_auc": false,
+    "correct_beats_all_local_attribute": false,
+    "pair_auc_margins": {
+      "uniform": 0.0,
+      "wrong_object": -2.854330862867016e-05,
+      "shuffled_mask": -3.3666420456768265e-05
+    },
+    "local_attribute_margins": {
+      "uniform": 0.0,
+      "wrong_object": 0.0,
+      "shuffled_mask": 0.0
+    },
+    "passed": false
+  },
+  "max_uniform_reproduction_error": 3.814697265625e-06,
+  "peak_gpu_bytes": 3739944960,
+  "status": "completed",
+  "split": "validation",
+  "test_evaluated": false
+}

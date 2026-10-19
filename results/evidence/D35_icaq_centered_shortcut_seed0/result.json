@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "协议": "ICAQ validation-only图像错配审计；未读取test",
+  "seed": 0,
+  "baseline_checkpoint": "./czsl/sparse_patch_troika/experiments/P0_ut_cls_seed0/val_best.pt",
+  "icaq_checkpoint": "./czsl/sparse_patch_troika/experiments/B0c_icaq_seed0_epoch1/icaq_best.pt",
+  "icaq_sha256": "f61b3ec291e2ed978497f1e5095f8903b3496b35907bc44d10854df45b3bfdde",
+  "image_attribute_mismatch_rate": 0.8842563783447418,
+  "normal_local_attribute": {
+    "micro": 0.3158058494088363,
+    "macro": 0.3118154167193664,
+    "predicted_class_count": 12,
+    "predicted_class_coverage": 0.75,
+    "largest_predicted_class_share": 0.5706285003111388
+  },
+  "mismatched_image_local_attribute": {
+    "micro": 0.18917237087741132,
+    "macro": 0.06724748567048931,
+    "predicted_class_count": 12,
+    "predicted_class_coverage": 0.75,
+    "largest_predicted_class_share": 0.5706285003111388
+  },
+  "mismatched_macro_retention": 0.215664402927877,
+  "feature_cosine_normal_vs_mismatched": 0.9619435175057146,
+  "centered_feature_cosine_normal_vs_mismatched": -0.044907137751579285,
+  "local_top1_agreement_normal_vs_mismatched": 0.337274432182312,
+  "local_probability_l1_normal_vs_mismatched": 1.1599972248077393,
+  "通过图像依赖门槛": true
+}

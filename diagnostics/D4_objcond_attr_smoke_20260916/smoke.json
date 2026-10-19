@@ -1,0 +1,37 @@
+{
+  "status": "smoke-completed",
+  "batches": 1,
+  "finite": true,
+  "score_shapes": {
+    "cls:0.00": [
+      2,
+      116
+    ],
+    "soft:0.05": [
+      2,
+      116
+    ],
+    "soft:0.10": [
+      2,
+      116
+    ],
+    "soft:0.20": [
+      2,
+      116
+    ],
+    "hard3:0.05": [
+      2,
+      116
+    ],
+    "hard3:0.10": [
+      2,
+      116
+    ],
+    "hard3:0.20": [
+      2,
+      116
+    ]
+  },
+  "stability_samples": 2,
+  "peak_gpu_bytes": 2423579648
+}

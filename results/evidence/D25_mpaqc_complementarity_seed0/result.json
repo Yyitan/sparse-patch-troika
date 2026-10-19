@@ -1,0 +1,31 @@
+{
+  "status": "completed",
+  "协议": "固定MPAQC权重/真实属性条件对象排序互补性/validation-only/未读取test",
+  "seed": 0,
+  "baseline_checkpoint": "./czsl/sparse_patch_troika/experiments/P0_ut_cls_seed0/val_best.pt",
+  "mpaqc_checkpoint": "./czsl/sparse_patch_troika/experiments/P1_mpaqc_seed0/msaq_best.pt",
+  "结果": {
+    "CLS": {
+      "object_top1": 0.8627877831459045,
+      "correct_object_margin": 3.413647413253784
+    },
+    "局部raw_scorer": {
+      "object_top1": 0.747977614402771,
+      "correct_object_margin": 2.054683208465576
+    },
+    "完整MPAQC": {
+      "object_top1": 0.8630989193916321,
+      "correct_object_margin": 3.4960594177246094
+    },
+    "互补性": {
+      "CLS错_局部对": 0.033602986484766006,
+      "CLS对_局部错": 0.14841319620609283,
+      "均对": 0.7143746018409729,
+      "均错": 0.10360921174287796,
+      "二者任一正确_oracle上界": 0.8963907957077026,
+      "完整融合相对CLS纠正": 0.0015556938014924526,
+      "完整融合相对CLS破坏": 0.0012445551110431552
+    },
+    "learned_gate": 0.03046608716249466
+  }
+}

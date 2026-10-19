@@ -1,0 +1,23 @@
+{
+  "protocol": "fixed-checkpoint/validation-only/object-mask-specificity-controls/v1",
+  "checkpoint": "./czsl/sparse_patch_troika/experiments/P0_ut_cls_seed0/val_best.pt",
+  "checkpoint_sha256": "c6c3cfd397102dece3792255e27b01da9abe4aca64adec4fa78407ca71e927d8",
+  "script_sha256": "be22d95dc741b67226fa0abd7dbd7b7f4e158e008af2a29449c9682c7ad6b111",
+  "helper_sha256": "78ff85e2d1e4f9c02ed917fa80b68bbb445a6dc29f200dff32c5f6c061eb5d21",
+  "gpu": "GPU-a0f4824e-b407-020f-b7e8-c53943425f46",
+  "object_layer": 12,
+  "attribute_layer": 6,
+  "alpha": 0.1,
+  "mask_temperature": 0.07,
+  "center_sigma_ratio": 0.25,
+  "controls": [
+    "uniform",
+    "center",
+    "correct_object",
+    "wrong_object",
+    "shuffled_mask"
+  ],
+  "wrong_object_rule": "deterministic object-index roll by one",
+  "shuffled_mask_rule": "batch roll by one",
+  "test_policy": "validation only; no test evaluation"
+}

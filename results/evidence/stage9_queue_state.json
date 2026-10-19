@@ -1,0 +1,32 @@
+{
+  "time": "2026-09-17 10:56:03",
+  "controller_pid": 4011891,
+  "max_active": 2,
+  "pending": [],
+  "finished": [
+    {
+      "run": "C2_cams_latent_controls_seed0_closed_val",
+      "returncode": 0,
+      "gpu": {
+        "index": 1,
+        "uuid": "GPU-a0f4824e-b407-020f-b7e8-c53943425f46",
+        "free": 40318,
+        "used": 21,
+        "utilization": 0
+      }
+    },
+    {
+      "run": "C3_cams_latent_controls_seed1_closed_val",
+      "returncode": 0,
+      "gpu": {
+        "index": 3,
+        "uuid": "GPU-b24f0e37-e687-833b-7c93-37873141f6f7",
+        "free": 40316,
+        "used": 23,
+        "utilization": 0
+      }
+    }
+  ],
+  "stopping": false,
+  "active": []
+}

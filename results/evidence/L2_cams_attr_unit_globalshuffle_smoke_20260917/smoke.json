@@ -1,0 +1,50 @@
+{
+  "status": "smoke-completed",
+  "batches": 1,
+  "finite": true,
+  "score_shapes": {
+    "mean_feature": [
+      2,
+      116
+    ],
+    "unit_mean": [
+      2,
+      116
+    ],
+    "attribute_max": [
+      2,
+      116
+    ],
+    "attribute_logmeanexp": [
+      2,
+      116
+    ],
+    "shuffled_image_max": [
+      2,
+      116
+    ]
+  },
+  "local_shapes": {
+    "mean_feature": [
+      2,
+      16
+    ],
+    "unit_mean": [
+      2,
+      16
+    ],
+    "attribute_max": [
+      2,
+      16
+    ],
+    "attribute_logmeanexp": [
+      2,
+      16
+    ],
+    "shuffled_image_max": [
+      2,
+      16
+    ]
+  },
+  "peak_gpu_bytes": 2779356160
+}

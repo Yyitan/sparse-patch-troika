@@ -1,0 +1,157 @@
+{
+  "status": "completed",
+  "协议": "固定MSAQ最佳权重/validation-only/gate机制消融/不调参/未读取test",
+  "seed": 1,
+  "baseline_checkpoint": "./czsl/sparse_patch_troika/experiments/P9_ut_cls_seed1/val_best.pt",
+  "msaq_checkpoint": "./czsl/sparse_patch_troika/experiments/M2_msaq_seed1/msaq_best.pt",
+  "results": {
+    "双gate关闭_严格CLS": {
+      "metrics": {
+        "czsl": {
+          "best_seen": 0.73204106092453,
+          "best_unseen": 0.7710739970207214,
+          "best_hm": 0.6315716497829497,
+          "AUC": 0.5145827247027835,
+          "attr_acc": 0.4256378412246704,
+          "obj_acc": 0.8360298871994019
+        },
+        "primitive_attribute": {
+          "micro": 0.3326073428749222,
+          "macro": 0.30396950939647543
+        },
+        "local_attribute": {
+          "micro": 0.31985065339141255,
+          "macro": 0.3156114825425015
+        },
+        "attention_sparsity": 0.5359375153777758,
+        "effective_patch_count": 76.88543455246152,
+        "attention_entropy": 0.809994208605006,
+        "pair_gate": 0.0,
+        "attr_gate": 0.0,
+        "semantic_key_mix": 0.5229696035385132,
+        "semantic_value_mix": 0.28314879536628723,
+        "temperature": 0.9687923192977905
+      },
+      "pair_gate_raw": 0.0,
+      "attr_gate_raw": 0.0,
+      "pair_gate_effective": 0.0,
+      "attr_gate_effective": 0.0,
+      "delta_vs_baseline": {
+        "AUC": 0.0,
+        "primitive_micro": 0.0,
+        "primitive_macro": 0.0
+      }
+    },
+    "仅组合残差": {
+      "metrics": {
+        "czsl": {
+          "best_seen": 0.73204106092453,
+          "best_unseen": 0.7736414074897766,
+          "best_hm": 0.6298956621072272,
+          "AUC": 0.5151552915006767,
+          "attr_acc": 0.41941505670547485,
+          "obj_acc": 0.837274432182312
+        },
+        "primitive_attribute": {
+          "micro": 0.3326073428749222,
+          "macro": 0.30396950939647543
+        },
+        "local_attribute": {
+          "micro": 0.31985065339141255,
+          "macro": 0.3156114825425015
+        },
+        "attention_sparsity": 0.5359375153777758,
+        "effective_patch_count": 76.88543455246152,
+        "attention_entropy": 0.809994208605006,
+        "pair_gate": 0.08419547975063324,
+        "attr_gate": 0.0,
+        "semantic_key_mix": 0.5229696035385132,
+        "semantic_value_mix": 0.28314879536628723,
+        "temperature": 0.9687923192977905
+      },
+      "pair_gate_raw": 0.08439527451992035,
+      "attr_gate_raw": 0.0,
+      "pair_gate_effective": 0.08419547230005264,
+      "attr_gate_effective": 0.0,
+      "delta_vs_baseline": {
+        "AUC": 0.0005725667978931925,
+        "primitive_micro": 0.0,
+        "primitive_macro": 0.0
+      }
+    },
+    "仅属性残差": {
+      "metrics": {
+        "czsl": {
+          "best_seen": 0.7297605276107788,
+          "best_unseen": 0.7706461548805237,
+          "best_hm": 0.6297333894954193,
+          "AUC": 0.5124695826038159,
+          "attr_acc": 0.42532670497894287,
+          "obj_acc": 0.8363410234451294
+        },
+        "primitive_attribute": {
+          "micro": 0.33354075917859366,
+          "macro": 0.3042946059809023
+        },
+        "local_attribute": {
+          "micro": 0.31985065339141255,
+          "macro": 0.3156114825425015
+        },
+        "attention_sparsity": 0.5359375153777758,
+        "effective_patch_count": 76.88543455246152,
+        "attention_entropy": 0.809994208605006,
+        "pair_gate": 0.0,
+        "attr_gate": -0.06361468881368637,
+        "semantic_key_mix": 0.5229696035385132,
+        "semantic_value_mix": 0.28314879536628723,
+        "temperature": 0.9687923192977905
+      },
+      "pair_gate_raw": 0.0,
+      "attr_gate_raw": -0.06370070576667786,
+      "pair_gate_effective": 0.0,
+      "attr_gate_effective": -0.06361468136310577,
+      "delta_vs_baseline": {
+        "AUC": -0.002113142098967624,
+        "primitive_micro": 0.0009334163036714416,
+        "primitive_macro": 0.00032509658442686495
+      }
+    },
+    "完整MSAQ": {
+      "metrics": {
+        "czsl": {
+          "best_seen": 0.73204106092453,
+          "best_unseen": 0.7736414074897766,
+          "best_hm": 0.6293501299365701,
+          "AUC": 0.5152870261728244,
+          "attr_acc": 0.4197261929512024,
+          "obj_acc": 0.8375855684280396
+        },
+        "primitive_attribute": {
+          "micro": 0.33354075917859366,
+          "macro": 0.3042946059809023
+        },
+        "local_attribute": {
+          "micro": 0.31985065339141255,
+          "macro": 0.3156114825425015
+        },
+        "attention_sparsity": 0.5359375153777758,
+        "effective_patch_count": 76.88543455246152,
+        "attention_entropy": 0.809994208605006,
+        "pair_gate": 0.08419547975063324,
+        "attr_gate": -0.06361468881368637,
+        "semantic_key_mix": 0.5229696035385132,
+        "semantic_value_mix": 0.28314879536628723,
+        "temperature": 0.9687923192977905
+      },
+      "pair_gate_raw": 0.08439527451992035,
+      "attr_gate_raw": -0.06370070576667786,
+      "pair_gate_effective": 0.08419547230005264,
+      "attr_gate_effective": -0.06361468136310577,
+      "delta_vs_baseline": {
+        "AUC": 0.0007043014700408579,
+        "primitive_micro": 0.0009334163036714416,
+        "primitive_macro": 0.00032509658442686495
+      }
+    }
+  }
+}

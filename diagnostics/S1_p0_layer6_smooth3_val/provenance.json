@@ -1,0 +1,16 @@
+{
+  "protocol": "fixed-P0/validation-only/replicate-padded-neighborhood-smoothing",
+  "layer": 6,
+  "kernel": 3,
+  "alphas": [
+    0.1,
+    0.25
+  ],
+  "modes": [
+    "max",
+    "topk2"
+  ],
+  "checkpoint_sha256": "c6c3cfd397102dece3792255e27b01da9abe4aca64adec4fa78407ca71e927d8",
+  "code_sha256": "ca5dd3fa9cf5cd9ac3aefc39dc7ea1f311bfd0eb02426799cbd459047dde44be",
+  "gpu": "0"
+}

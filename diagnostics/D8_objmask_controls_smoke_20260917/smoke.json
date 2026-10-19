@@ -1,0 +1,54 @@
+{
+  "status": "smoke-completed",
+  "batches": 1,
+  "finite": true,
+  "score_shapes": {
+    "cls": [
+      2,
+      116
+    ],
+    "uniform": [
+      2,
+      116
+    ],
+    "center": [
+      2,
+      116
+    ],
+    "correct_object": [
+      2,
+      116
+    ],
+    "wrong_object": [
+      2,
+      116
+    ],
+    "shuffled_mask": [
+      2,
+      116
+    ]
+  },
+  "local_shapes": {
+    "uniform": [
+      2,
+      16
+    ],
+    "center": [
+      2,
+      16
+    ],
+    "correct_object": [
+      2,
+      16
+    ],
+    "wrong_object": [
+      2,
+      16
+    ],
+    "shuffled_mask": [
+      2,
+      16
+    ]
+  },
+  "peak_gpu_bytes": 2414675456
+}

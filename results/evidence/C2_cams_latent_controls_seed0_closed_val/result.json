@@ -1,0 +1,79 @@
+{
+  "grid": {
+    "uniform": {
+      "best_seen": 0.6761687397956848,
+      "best_unseen": 0.7077449560165405,
+      "best_hm": 0.6164623340926491,
+      "AUC": 0.45171352291038147,
+      "attr_acc": 0.35158681869506836,
+      "obj_acc": 0.8394523859024048
+    },
+    "correct_object": {
+      "best_seen": 0.6761687397956848,
+      "best_unseen": 0.7077449560165405,
+      "best_hm": 0.6164623340926491,
+      "AUC": 0.4517132789557117,
+      "attr_acc": 0.35158681869506836,
+      "obj_acc": 0.8394523859024048
+    },
+    "wrong_object": {
+      "best_seen": 0.6761687397956848,
+      "best_unseen": 0.7077449560165405,
+      "best_hm": 0.6164623340926491,
+      "AUC": 0.45171352291038147,
+      "attr_acc": 0.3512756824493408,
+      "obj_acc": 0.8394523859024048
+    },
+    "shuffled_mask": {
+      "best_seen": 0.6761687397956848,
+      "best_unseen": 0.7077449560165405,
+      "best_hm": 0.6164623340926491,
+      "AUC": 0.45171352291038147,
+      "attr_acc": 0.3512756824493408,
+      "obj_acc": 0.8394523859024048
+    }
+  },
+  "local_attribute": {
+    "uniform": {
+      "accuracy": 0.3061605393886566,
+      "target_logit_mean": 13.677502632141113,
+      "normalized_entropy": 1.0000001192092896
+    },
+    "correct_object": {
+      "accuracy": 0.3061605393886566,
+      "target_logit_mean": 13.666060447692871,
+      "normalized_entropy": 0.9991217255592346
+    },
+    "wrong_object": {
+      "accuracy": 0.3061605393886566,
+      "target_logit_mean": 13.666471481323242,
+      "normalized_entropy": 0.9991573095321655
+    },
+    "shuffled_mask": {
+      "accuracy": 0.3061605393886566,
+      "target_logit_mean": 13.666644096374512,
+      "normalized_entropy": 0.9991277456283569
+    }
+  },
+  "gate": {
+    "uniform_reproduced": true,
+    "correct_beats_all_pair_auc": false,
+    "correct_beats_all_local_attribute": false,
+    "pair_auc_margins": {
+      "uniform": -2.4395466979854064e-07,
+      "wrong_object": -2.4395466979854064e-07,
+      "shuffled_mask": -2.4395466979854064e-07
+    },
+    "local_attribute_margins": {
+      "uniform": 0.0,
+      "wrong_object": 0.0,
+      "shuffled_mask": 0.0
+    },
+    "passed": false
+  },
+  "max_uniform_reproduction_error": 3.814697265625e-06,
+  "peak_gpu_bytes": 3352479232,
+  "status": "completed",
+  "split": "validation",
+  "test_evaluated": false
+}

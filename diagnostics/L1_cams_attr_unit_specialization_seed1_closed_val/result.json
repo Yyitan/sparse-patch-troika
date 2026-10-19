@@ -1,0 +1,136 @@
+{
+  "grid": {
+    "mean_feature": {
+      "best_seen": 0.7035347819328308,
+      "best_unseen": 0.7436884641647339,
+      "best_hm": 0.63451532944107,
+      "AUC": 0.48985751244509845,
+      "attr_acc": 0.3658992052078247,
+      "obj_acc": 0.8176726698875427
+    },
+    "unit_mean": {
+      "best_seen": 0.7035347819328308,
+      "best_unseen": 0.7436884641647339,
+      "best_hm": 0.63451532944107,
+      "AUC": 0.48985043767040704,
+      "attr_acc": 0.3665214776992798,
+      "obj_acc": 0.8176726698875427
+    },
+    "attribute_max": {
+      "best_seen": 0.7001140117645264,
+      "best_unseen": 0.7436884641647339,
+      "best_hm": 0.6326529960232505,
+      "AUC": 0.4871842461854943,
+      "attr_acc": 0.3655880391597748,
+      "obj_acc": 0.8179838061332703
+    },
+    "attribute_logmeanexp": {
+      "best_seen": 0.7035347819328308,
+      "best_unseen": 0.7436884641647339,
+      "best_hm": 0.63451532944107,
+      "AUC": 0.4898467782993502,
+      "attr_acc": 0.36621034145355225,
+      "obj_acc": 0.8176726698875427
+    },
+    "shuffled_image_max": {
+      "best_seen": 0.7286202907562256,
+      "best_unseen": 0.7449721693992615,
+      "best_hm": 0.6485107833543278,
+      "AUC": 0.506856612460238,
+      "attr_acc": 0.3714996874332428,
+      "obj_acc": 0.819539487361908
+    }
+  },
+  "local_attribute": {
+    "mean_feature": {
+      "accuracy": 0.3354075849056244,
+      "target_logit_mean": 10.456753730773926
+    },
+    "unit_mean": {
+      "accuracy": 0.33602985739707947,
+      "target_logit_mean": 10.379961013793945
+    },
+    "attribute_max": {
+      "accuracy": 0.33602985739707947,
+      "target_logit_mean": 11.190193176269531
+    },
+    "attribute_logmeanexp": {
+      "accuracy": 0.3369632959365845,
+      "target_logit_mean": 10.481341361999512
+    },
+    "shuffled_image_max": {
+      "accuracy": 0.299315482378006,
+      "target_logit_mean": 10.767067909240723
+    }
+  },
+  "oracle": {
+    "any_unit_correct": 0.3528313636779785,
+    "target_selected_accuracy": 0.3388301134109497,
+    "unique_predictions_mean": 1.0868077278137207,
+    "best_single_unit_accuracy": 0.33820784091949463,
+    "best_single_unit_index": 19,
+    "per_unit_accuracy": [
+      0.337274432182312,
+      0.3329184949398041,
+      0.3378967046737671,
+      0.33758556842803955,
+      0.3319850564002991,
+      0.3347853124141693,
+      0.3369632959365845,
+      0.33167392015457153,
+      0.3332296311855316,
+      0.3369632959365845,
+      0.3332296311855316,
+      0.3338519036769867,
+      0.336340993642807,
+      0.33509644865989685,
+      0.331362783908844,
+      0.3344741761684418,
+      0.32856252789497375,
+      0.3344741761684418,
+      0.33509644865989685,
+      0.33820784091949463,
+      0.337274432182312,
+      0.33758556842803955,
+      0.33665215969085693,
+      0.3378967046737671,
+      0.33354076743125916,
+      0.337274432182312,
+      0.337274432182312,
+      0.3319850564002991,
+      0.33602985739707947,
+      0.3369632959365845,
+      0.33260732889175415,
+      0.33820784091949463
+    ],
+    "off_diagonal_feature_cosine": 0.9836069345474243
+  },
+  "gate": {
+    "direct_candidate_passed": false,
+    "direct_candidates": {
+      "attribute_max": {
+        "beats_mean_pair_auc": false,
+        "beats_mean_local_attribute": true,
+        "beats_shuffled_pair_auc": false,
+        "beats_shuffled_local_attribute": true,
+        "passed": false
+      },
+      "attribute_logmeanexp": {
+        "beats_mean_pair_auc": false,
+        "beats_mean_local_attribute": true,
+        "beats_shuffled_pair_auc": false,
+        "beats_shuffled_local_attribute": true,
+        "passed": false
+      }
+    },
+    "oracle_any_unit_headroom": 0.017423778772354126,
+    "oracle_target_selected_headroom": 0.0034225285053253174,
+    "oracle_specialization_passed": false,
+    "passed": false
+  },
+  "peak_gpu_bytes": 3356621312,
+  "status": "completed",
+  "split": "validation",
+  "validation_world": "closed",
+  "test_evaluated": false
+}

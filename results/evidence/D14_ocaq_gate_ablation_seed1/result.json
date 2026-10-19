@@ -1,0 +1,133 @@
+{
+  "status": "completed",
+  "协议": "固定最佳OCAQ权重/validation-only/gate机制消融/不调参/不读取test",
+  "seed": 1,
+  "baseline_checkpoint": "./czsl/sparse_patch_troika/experiments/P9_ut_cls_seed1/val_best.pt",
+  "ocaq_checkpoint": "./czsl/sparse_patch_troika/experiments/Q2_ocaq_frozen_seed1/ocaq_best.pt",
+  "results": {
+    "双gate关闭_严格基线": {
+      "metrics": {
+        "best_seen": 0.73204106092453,
+        "best_unseen": 0.7710739970207214,
+        "best_hm": 0.6315716497829497,
+        "AUC": 0.5145827247027835,
+        "attr_acc": 0.4256378412246704,
+        "obj_acc": 0.8360298871994019
+      },
+      "query_metrics": {
+        "local_attr_acc": 0.35407591785936526,
+        "object_query_acc": 0.7955818294959552,
+        "specificity_acc": 0.6456129433727442,
+        "specificity_margin": 0.09478679820477925,
+        "attention_overlap": 0.003010186220112986,
+        "attention_entropy": 0.5931185251745142,
+        "effective_queries": 3.9940291548932496
+      },
+      "pair_gate_raw": 0.0,
+      "attr_gate_raw": 0.0,
+      "pair_gate_effective": 0.0,
+      "attr_gate_effective": 0.0,
+      "delta_vs_baseline": {
+        "best_seen": 0.0,
+        "best_unseen": 0.0,
+        "best_hm": 0.0,
+        "AUC": 0.0,
+        "attr_acc": 0.0,
+        "obj_acc": 0.0
+      }
+    },
+    "仅组合残差": {
+      "metrics": {
+        "best_seen": 0.73204106092453,
+        "best_unseen": 0.7732135057449341,
+        "best_hm": 0.6331480973640029,
+        "AUC": 0.5164846116035979,
+        "attr_acc": 0.42097076773643494,
+        "obj_acc": 0.8360298871994019
+      },
+      "query_metrics": {
+        "local_attr_acc": 0.35407591785936526,
+        "object_query_acc": 0.7955818294959552,
+        "specificity_acc": 0.6456129433727442,
+        "specificity_margin": 0.09478679820477925,
+        "attention_overlap": 0.003010186220112986,
+        "attention_entropy": 0.5931185251745142,
+        "effective_queries": 3.9940291548932496
+      },
+      "pair_gate_raw": 0.027640854939818382,
+      "attr_gate_raw": 0.0,
+      "pair_gate_effective": 0.027633817866444588,
+      "attr_gate_effective": 0.0,
+      "delta_vs_baseline": {
+        "best_seen": 0.0,
+        "best_unseen": 0.0021395087242126465,
+        "best_hm": 0.001576447581053242,
+        "AUC": 0.0019018869008143868,
+        "attr_acc": -0.004667073488235474,
+        "obj_acc": 0.0
+      }
+    },
+    "仅属性残差": {
+      "metrics": {
+        "best_seen": 0.7309008240699768,
+        "best_unseen": 0.7706461548805237,
+        "best_hm": 0.630347239136938,
+        "AUC": 0.5132597556246112,
+        "attr_acc": 0.4262601137161255,
+        "obj_acc": 0.8363410234451294
+      },
+      "query_metrics": {
+        "local_attr_acc": 0.35407591785936526,
+        "object_query_acc": 0.7955818294959552,
+        "specificity_acc": 0.6456129433727442,
+        "specificity_margin": 0.09478679820477925,
+        "attention_overlap": 0.003010186220112986,
+        "attention_entropy": 0.5931185251745142,
+        "effective_queries": 3.9940291548932496
+      },
+      "pair_gate_raw": 0.0,
+      "attr_gate_raw": -0.06991474330425262,
+      "pair_gate_effective": 0.0,
+      "attr_gate_effective": -0.06980104744434357,
+      "delta_vs_baseline": {
+        "best_seen": -0.0011402368545532227,
+        "best_unseen": -0.0004278421401977539,
+        "best_hm": -0.0012244106460116422,
+        "AUC": -0.0013229690781723091,
+        "attr_acc": 0.0006222724914550781,
+        "obj_acc": 0.00031113624572753906
+      }
+    },
+    "完整OCAQ": {
+      "metrics": {
+        "best_seen": 0.73204106092453,
+        "best_unseen": 0.7732135057449341,
+        "best_hm": 0.6320678706872741,
+        "AUC": 0.516175033908352,
+        "attr_acc": 0.42190417647361755,
+        "obj_acc": 0.8360298871994019
+      },
+      "query_metrics": {
+        "local_attr_acc": 0.35407591785936526,
+        "object_query_acc": 0.7955818294959552,
+        "specificity_acc": 0.6456129433727442,
+        "specificity_margin": 0.09478679820477925,
+        "attention_overlap": 0.003010186220112986,
+        "attention_entropy": 0.5931185251745142,
+        "effective_queries": 3.9940291548932496
+      },
+      "pair_gate_raw": 0.027640854939818382,
+      "attr_gate_raw": -0.06991474330425262,
+      "pair_gate_effective": 0.027633817866444588,
+      "attr_gate_effective": -0.06980104744434357,
+      "delta_vs_baseline": {
+        "best_seen": 0.0,
+        "best_unseen": 0.0021395087242126465,
+        "best_hm": 0.0004962209043244403,
+        "AUC": 0.0015923092055684096,
+        "attr_acc": -0.0037336647510528564,
+        "obj_acc": 0.0
+      }
+    }
+  }
+}

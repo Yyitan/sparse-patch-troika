@@ -1,0 +1,248 @@
+{
+  "status": "completed",
+  "协议": "D37/D38-RCR前置机会审计/validation-only/零训练/未读取test图像",
+  "seed": 1,
+  "baseline_checkpoint": "./czsl/sparse_patch_troika/experiments/P9_ut_cls_seed1/val_best.pt",
+  "baseline_checkpoint_sha256": "da73b6ffa17b938a1e8004f8031bdc2fa1a13b851ebbc923c3f534e7f4d565b3",
+  "icaq_checkpoint": "./czsl/sparse_patch_troika/experiments/B2_icaq_seed1/icaq_best.pt",
+  "icaq_checkpoint_sha256": "b268fba05fcee8e7d973d2dfdd801180d4779a1bdf031ae058d1f7cf1ee23022",
+  "ICAQ原学习pair_gate": 0.030897065997123718,
+  "审计时pair_gate": 0.0,
+  "baseline_missing_new_keys": [
+    "msaq.key12_proj.bias",
+    "msaq.key12_proj.weight",
+    "msaq.key6_proj.bias",
+    "msaq.key6_proj.weight",
+    "msaq.out_proj.bias",
+    "msaq.out_proj.weight",
+    "msaq.query_proj.bias",
+    "msaq.query_proj.weight",
+    "msaq.semantic_key_mix_logit",
+    "msaq.semantic_value_mix_logit",
+    "msaq.temperature_raw",
+    "msaq.value12_proj.bias",
+    "msaq.value12_proj.weight",
+    "msaq.value6_proj.bias",
+    "msaq.value6_proj.weight",
+    "msaq.visual_mlp.0.bias",
+    "msaq.visual_mlp.0.weight",
+    "msaq.visual_mlp.3.bias",
+    "msaq.visual_mlp.3.weight",
+    "msaq.visual_norm.bias",
+    "msaq.visual_norm.weight",
+    "msaq_attr_gate",
+    "msaq_pair_gate",
+    "ocaq.attribute_attention.k_proj.bias",
+    "ocaq.attribute_attention.k_proj.weight",
+    "ocaq.attribute_attention.out_proj.bias",
+    "ocaq.attribute_attention.out_proj.weight",
+    "ocaq.attribute_attention.q_proj.bias",
+    "ocaq.attribute_attention.q_proj.weight",
+    "ocaq.attribute_attention.v_proj.bias",
+    "ocaq.attribute_attention.v_proj.weight",
+    "ocaq.attribute_mlp.0.bias",
+    "ocaq.attribute_mlp.0.weight",
+    "ocaq.attribute_mlp.3.bias",
+    "ocaq.attribute_mlp.3.weight",
+    "ocaq.attribute_norm.bias",
+    "ocaq.attribute_norm.weight",
+    "ocaq.object_attention.k_proj.bias",
+    "ocaq.object_attention.k_proj.weight",
+    "ocaq.object_attention.out_proj.bias",
+    "ocaq.object_attention.out_proj.weight",
+    "ocaq.object_attention.q_proj.bias",
+    "ocaq.object_attention.q_proj.weight",
+    "ocaq.object_attention.v_proj.bias",
+    "ocaq.object_attention.v_proj.weight",
+    "ocaq.object_context.bias",
+    "ocaq.object_context.weight",
+    "ocaq.object_mlp.0.bias",
+    "ocaq.object_mlp.0.weight",
+    "ocaq.object_mlp.3.bias",
+    "ocaq.object_mlp.3.weight",
+    "ocaq.object_norm.bias",
+    "ocaq.object_norm.weight",
+    "ocaq.object_query.bias",
+    "ocaq.object_query.weight",
+    "ocaq.object_text.bias",
+    "ocaq.object_text.weight",
+    "ocaq.query_bank",
+    "ocaq.query_norm.bias",
+    "ocaq.query_norm.weight",
+    "ocaq.region_bias_raw",
+    "ocaq.region_mix_logit",
+    "ocaq.router.bias",
+    "ocaq.router.weight",
+    "ocaq_attr_gate",
+    "ocaq_pair_gate",
+    "tgaq.attribute_attention.k_proj.bias",
+    "tgaq.attribute_attention.k_proj.weight",
+    "tgaq.attribute_attention.out_proj.bias",
+    "tgaq.attribute_attention.out_proj.weight",
+    "tgaq.attribute_attention.q_proj.bias",
+    "tgaq.attribute_attention.q_proj.weight",
+    "tgaq.attribute_attention.v_proj.bias",
+    "tgaq.attribute_attention.v_proj.weight",
+    "tgaq.attribute_query.bias",
+    "tgaq.attribute_query.weight",
+    "tgaq.object_attention.k_proj.bias",
+    "tgaq.object_attention.k_proj.weight",
+    "tgaq.object_attention.out_proj.bias",
+    "tgaq.object_attention.out_proj.weight",
+    "tgaq.object_attention.q_proj.bias",
+    "tgaq.object_attention.q_proj.weight",
+    "tgaq.object_attention.v_proj.bias",
+    "tgaq.object_attention.v_proj.weight",
+    "tgaq.object_context.bias",
+    "tgaq.object_context.weight",
+    "tgaq.object_mlp.0.bias",
+    "tgaq.object_mlp.0.weight",
+    "tgaq.object_mlp.3.bias",
+    "tgaq.object_mlp.3.weight",
+    "tgaq.object_norm.bias",
+    "tgaq.object_norm.weight",
+    "tgaq.object_query.bias",
+    "tgaq.object_query.weight",
+    "tgaq.object_text.bias",
+    "tgaq.object_text.weight",
+    "tgaq.query_norm.bias",
+    "tgaq.query_norm.weight",
+    "tgaq.region_bias_raw",
+    "tgaq.region_mix_logit",
+    "tgaq.visual_mlp.0.bias",
+    "tgaq.visual_mlp.0.weight",
+    "tgaq.visual_mlp.3.bias",
+    "tgaq.visual_mlp.3.weight",
+    "tgaq.visual_norm.bias",
+    "tgaq.visual_norm.weight"
+  ],
+  "audit": {
+    "样本数": 3214,
+    "Troika_CZSL": {
+      "best_seen": 0.73204106092453,
+      "best_unseen": 0.7710739970207214,
+      "best_hm": 0.6315716497829497,
+      "AUC": 0.5145827247027835,
+      "attr_acc": 0.4256378412246704,
+      "obj_acc": 0.8360298871994019
+    },
+    "Troika原始组合Top1": 0.34411948919296265,
+    "Troika组合错误数": 2108,
+    "Troika组合Top1分解": {
+      "属性正确率": 0.4256378412246704,
+      "对象正确率": 0.8378967046737671
+    },
+    "Troika错误类型": {
+      "属性错_对象对": {
+        "count": 1587,
+        "占全部样本": 0.49377721548080444,
+        "占组合错误": 0.7528463006019592
+      },
+      "属性对_对象错": {
+        "count": 262,
+        "占全部样本": 0.08151835948228836,
+        "占组合错误": 0.12428842484951019
+      },
+      "属性对象都错": {
+        "count": 259,
+        "占全部样本": 0.08058494329452515,
+        "占组合错误": 0.12286527454853058
+      }
+    },
+    "Troika真实组合TopK覆盖": {
+      "1": {
+        "all_rate": 0.34411948919296265,
+        "all_count": 1106,
+        "baseline_wrong_rate": 0.0,
+        "baseline_wrong_count": 0
+      },
+      "2": {
+        "all_rate": 0.5653391480445862,
+        "all_count": 1817,
+        "baseline_wrong_rate": 0.3372865319252014,
+        "baseline_wrong_count": 711
+      },
+      "5": {
+        "all_rate": 0.8263845443725586,
+        "all_count": 2656,
+        "baseline_wrong_rate": 0.7352941036224365,
+        "baseline_wrong_count": 1550
+      },
+      "10": {
+        "all_rate": 0.9458618760108948,
+        "all_count": 3040,
+        "baseline_wrong_rate": 0.9174572825431824,
+        "baseline_wrong_count": 1934
+      }
+    },
+    "ICAQ真实属性TopK覆盖": {
+      "1": {
+        "rate": 0.3061605393886566,
+        "count": 984
+      },
+      "2": {
+        "rate": 0.4794648289680481,
+        "count": 1541
+      },
+      "3": {
+        "rate": 0.5914747714996338,
+        "count": 1901
+      },
+      "5": {
+        "rate": 0.7464219331741333,
+        "count": 2399
+      }
+    },
+    "Troika原始属性分支": {
+      "micro": 0.3326073428749222,
+      "macro": 0.30396950939647543,
+      "predicted_class_count": 15,
+      "predicted_class_coverage": 0.9375,
+      "largest_predicted_class_share": 0.6801493466085874
+    },
+    "ICAQ局部属性分支": {
+      "micro": 0.3061605476042315,
+      "macro": 0.3221410487782609,
+      "predicted_class_count": 14,
+      "predicted_class_coverage": 0.875,
+      "largest_predicted_class_share": 0.5208462974486621
+    },
+    "Troika独立对象分支micro": 0.8201618194580078,
+    "组合Top1分数间隔": {
+      "mean": 2.052699327468872,
+      "median": 1.8310842514038086
+    },
+    "使用组合预测对象的oracle": {
+      "对象Top1准确率": 0.8378967046737671,
+      "预测属性对象组合在候选集中可用率": 0.9965775012969971,
+      "直接拼接组合Top1准确率": 0.2299315482378006,
+      "核心可修正交集": {
+        "count": 52,
+        "占全部样本": 0.016179215162992477,
+        "占Troika组合错误": 0.024667931720614433
+      },
+      "oracle组合准确率": 0.36029869318008423,
+      "oracle相对Troika提升": 0.016179203987121582,
+      "对象来源": "Troika最终组合Top1携带对象"
+    },
+    "使用独立对象分支的主oracle": {
+      "对象Top1准确率": 0.8201618194580078,
+      "预测属性对象组合在候选集中可用率": 0.9959551692008972,
+      "直接拼接组合Top1准确率": 0.22277535498142242,
+      "核心可修正交集": {
+        "count": 51,
+        "占全部样本": 0.01586807705461979,
+        "占Troika组合错误": 0.024193547666072845
+      },
+      "oracle组合准确率": 0.3599875569343567,
+      "oracle相对Troika提升": 0.015868067741394043,
+      "对象来源": "Troika独立object CLS分支Top1"
+    }
+  },
+  "预注册门槛": {
+    "oracle提升至少0.02": false,
+    "核心交集占全部样本至少0.02": false,
+    "本seed通过": false
+  },
+  "peak_gpu_bytes": 3102864896
+}

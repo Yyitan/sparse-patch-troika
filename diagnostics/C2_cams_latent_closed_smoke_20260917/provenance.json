@@ -1,0 +1,19 @@
+{
+  "protocol": "fixed-cams-checkpoint/validation-only/object-conditioned-latent-controls/v1",
+  "source_code": "./lyt/czsl/CAMS-main/CAMS",
+  "checkpoint_source": "./CAMS/output/utzappos_crdiff",
+  "checkpoint": "./CAMS/output/utzappos_crdiff/val_best.pt",
+  "checkpoint_size": 1939825087,
+  "script_sha256": "27239091b35b6696583931740dc1b5b4dc100a064e2aef2c24847f1f43d50f48",
+  "config_sha256": "28662c1b1c737b6b3dd92706279b9f1dd7def594ddca1da6a132507141c4df28",
+  "gpu": "GPU-a0f4824e-b407-020f-b7e8-c53943425f46",
+  "latent_temperature": 0.07,
+  "controls": [
+    "uniform",
+    "correct_object",
+    "wrong_object",
+    "shuffled_mask"
+  ],
+  "validation_world": "closed, matching CAMS train.py checkpoint selection",
+  "test_policy": "validation only; no test evaluation"
+}

@@ -1,0 +1,13 @@
+{
+  "protocol": "test-once/selected-on-validation/object-conditioned-attribute-residual",
+  "checkpoint": "./czsl/sparse_patch_troika/experiments/P9_ut_cls_seed1/val_best.pt",
+  "checkpoint_sha256": "da73b6ffa17b938a1e8004f8031bdc2fa1a13b851ebbc923c3f534e7f4d565b3",
+  "validation_result": "./czsl/sparse_patch_troika/diagnostics/D5_objcond_attr_seed1_val/result.json",
+  "validation_result_sha256": "a2357fcc0d47d97451ccf7aee6749315a32048794476edf7e269e24e2441af1c",
+  "code_sha256": "ae797fa2772d7fe74515988d68a9dd8bde1d626605746e212a413a63998bce5b",
+  "gpu": "GPU-a0f4824e-b407-020f-b7e8-c53943425f46",
+  "selected": "soft:0.10",
+  "object_layer": 12,
+  "attribute_layer": 6,
+  "mask_temperature": 0.07
+}

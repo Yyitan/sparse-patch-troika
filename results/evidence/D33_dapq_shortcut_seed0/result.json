@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "协议": "validation-only图像错配捷径审计；未读取test",
+  "seed": 0,
+  "baseline_checkpoint": "./czsl/sparse_patch_troika/experiments/P0_ut_cls_seed0/val_best.pt",
+  "dapq_checkpoint": "./czsl/sparse_patch_troika/experiments/A0c_dapq_seed0_epoch1/dapq_best.pt",
+  "dapq_sha256": "6dfee8f15cf20859d74f4cfc076c6473d3f5eb448e2ca459aa3d0178afdfe2fe",
+  "image_attribute_mismatch_rate": 0.8842563783447418,
+  "normal_true_query_dense": {
+    "micro": 0.9663970130678282,
+    "macro": 0.9522251316131681,
+    "predicted_class_count": 15,
+    "predicted_class_coverage": 0.9375,
+    "largest_predicted_class_share": 0.27878033602986935
+  },
+  "mismatched_image_true_query_dense": {
+    "micro": 0.917548226509023,
+    "macro": 0.7900314036333134,
+    "predicted_class_count": 16,
+    "predicted_class_coverage": 1.0,
+    "largest_predicted_class_share": 0.2840696950840075
+  },
+  "dense_macro_drop": 0.16219372797985476,
+  "normal_local_diagonal": {
+    "micro": 0.3105164903546982,
+    "macro": 0.2226255269601362,
+    "predicted_class_count": 10,
+    "predicted_class_coverage": 0.625,
+    "largest_predicted_class_share": 0.7212196639701307
+  },
+  "mismatched_image_local_diagonal": {
+    "micro": 0.24891101431238333,
+    "macro": 0.07361538821886901,
+    "predicted_class_count": 10,
+    "predicted_class_coverage": 0.625,
+    "largest_predicted_class_share": 0.7212196639701307
+  },
+  "selected_feature_cosine_normal_vs_mismatched": 0.9571762639836784,
+  "捷径判定": true
+}

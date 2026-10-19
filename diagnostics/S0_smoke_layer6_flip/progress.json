@@ -1,0 +1,36 @@
+{
+  "status": "completed",
+  "layer": 6,
+  "samples": 8,
+  "metrics": {
+    "top1_consistency": {
+      "mean": 0.125,
+      "std": 0.33071890473365784
+    },
+    "top2_jaccard": {
+      "mean": 0.1666666716337204,
+      "std": 0.1666666716337204
+    },
+    "map_correlation": {
+      "mean": 0.6062604784965515,
+      "std": 0.0796189159154892
+    },
+    "normalized_argmax_distance": {
+      "mean": 0.26677364110946655,
+      "std": 0.12887825071811676
+    },
+    "top1_margin": {
+      "mean": 0.01376192457973957,
+      "std": 0.007423376198858023
+    },
+    "normalized_entropy": {
+      "mean": 0.9898622632026672,
+      "std": 0.0008740088669583201
+    },
+    "max_score": {
+      "mean": 0.07951869815587997,
+      "std": 0.010274922475218773
+    }
+  },
+  "peak_gpu_bytes": 2402498560
+}

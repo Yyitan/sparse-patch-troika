@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "split": "test",
+  "selected": "soft:0.10",
+  "selected_on_validation_auc": 0.5105179332641763,
+  "cls_validation_auc": 0.505867398249443,
+  "validation_improvement": 0.004650535014733226,
+  "test": {
+    "best_seen": 0.662756621837616,
+    "best_unseen": 0.7414066791534424,
+    "best_hm": 0.5641721633544841,
+    "AUC": 0.42928560864442966,
+    "attr_acc": 0.5113246440887451,
+    "obj_acc": 0.7244337797164917
+  },
+  "test_evaluated_keys": [
+    "soft:0.10"
+  ],
+  "peak_gpu_bytes": 3114787840
+}
